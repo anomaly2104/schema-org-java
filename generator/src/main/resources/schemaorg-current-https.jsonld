@@ -6072,6 +6072,21 @@
       }
     },
     {
+          "@id": "schema:Syllabus",
+          "@type": "rdfs:Class",
+          "rdfs:comment": "A syllabus that describes the material covered in a course, often with several such sections per Course so that a distinct timeRequired can be provided for that section of the Course.",
+          "rdfs:label": "Syllabus",
+          "rdfs:subClassOf": {
+            "@id": "schema:LearningResource"
+          },
+          "schema:isPartOf": {
+            "@id": "https://schema.org"
+          },
+          "schema:source": {
+            "@id": "https://github.com/schemaorg/schemaorg/issues/3281"
+          }
+        },
+    {
       "@id": "schema:EducationalOccupationalCredential",
       "@type": "rdfs:Class",
       "rdfs:comment": "An educational or occupational credential. A diploma, academic degree, certification, qualification, badge, etc., that may be awarded to a person or other entity that meets the requirements defined by the credentialer.",
@@ -22918,6 +22933,25 @@
       "rdfs:label": "OfferCatalog",
       "rdfs:subClassOf": {
         "@id": "schema:ItemList"
+      }
+    },
+    {
+      "@id": "schema:syllabusSections",
+      "@type": "rdf:Property",
+      "rdfs:comment": "Indicates (typically several) Syllabus entities that lay out what each section of the overall course will cover.",
+      "rdfs:label": "syllabusSections",
+      "schema:domainIncludes": [
+        {
+          "@id": "schema:Course"
+        }
+      ],
+      "schema:rangeIncludes": [
+        {
+          "@id": "schema:Syllabus"
+        },
+      ],
+      "schema:source": {
+        "@id": "https://github.com/schemaorg/schemaorg/issues/2289"
       }
     },
     {
