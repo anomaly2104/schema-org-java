@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>com.weedow</groupId>
-  <artifactId>schema-org-parent</artifactId>
+  <artifactId>schema-org-java-commons</artifactId>
   <versioning>
     <versions>
       <version>0.7.0-ANOMALY2104-SNAPSHOT</version>
