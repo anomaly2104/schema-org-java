@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>com.weedow</groupId>
-  <artifactId>schema-org-java-commons</artifactId>
+  <artifactId>schema-org-parent</artifactId>
   <versioning>
     <versions>
       <version>0.7.0-ANOMALY2104-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20250302052732</lastUpdated>
+    <lastUpdated>20250302053002</lastUpdated>
   </versioning>
 </metadata>
