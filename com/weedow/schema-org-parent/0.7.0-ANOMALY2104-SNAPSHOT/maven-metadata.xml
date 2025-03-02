@@ -3,16 +3,16 @@
   <groupId>com.weedow</groupId>
   <artifactId>schema-org-parent</artifactId>
   <versioning>
-    <lastUpdated>20250302054313</lastUpdated>
+    <lastUpdated>20250302054729</lastUpdated>
     <snapshot>
-      <timestamp>20250302.054313</timestamp>
+      <timestamp>20250302.054729</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.7.0-ANOMALY2104-20250302.054313-1</value>
-        <updated>20250302054313</updated>
+        <value>0.7.0-ANOMALY2104-20250302.054729-1</value>
+        <updated>20250302054729</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
