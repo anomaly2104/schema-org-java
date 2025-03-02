@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata modelVersion="1.1.0">
   <groupId>com.weedow</groupId>
-  <artifactId>schema-org-parent</artifactId>
+  <artifactId>schema-org-java-commons</artifactId>
   <versioning>
     <lastUpdated>20250302053002</lastUpdated>
     <snapshot>
       <timestamp>20250302.053002</timestamp>
-      <buildNumber>3</buildNumber>
+      <buildNumber>8</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
+        <extension>jar</extension>
+        <value>0.7.0-ANOMALY2104-20250302.053002-8</value>
+        <updated>20250302053002</updated>
+      </snapshotVersion>
+      <snapshotVersion>
         <extension>pom</extension>
-        <value>0.7.0-ANOMALY2104-20250302.053002-3</value>
+        <value>0.7.0-ANOMALY2104-20250302.053002-8</value>
         <updated>20250302053002</updated>
       </snapshotVersion>
     </snapshotVersions>
